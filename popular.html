@@ -1,0 +1,111 @@
+<!--Harrison Bement, 1/27/2024-->
+<!DOCTYPE html>
+<html lang="en">
+<!--I made this code, but it wasn't looking good with the padding. I asked an AI to make it look more efficient and copied it straight from the source-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bake Show</title>
+    <style> 
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #574de6;
+            padding: 1em;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #574de6;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="./Nutrition.html">
+                <li>Nutrition facts</li>
+            </a>
+            <a href="./popular.html">
+                <li>Popular items</li>
+            </a>
+            <a href="./images.html">
+                <li>Images</li>
+            </a>
+        </ul>
+    </div>
+<!--I didn't understand fully from class how to use user inputs, I used W3 schools and AI. for the inputs-->
+    <form> 
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="quantity">Quantity (1-50):</label>
+        <input type="number" id="quantity" name="
+                quantity" min="1" max="50" required>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color" value="#574de6">
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+
+        <button> <a href="index.html">Submit</a></button>
+    </form>
+</body>
+
+</html>

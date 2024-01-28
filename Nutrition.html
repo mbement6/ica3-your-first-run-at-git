@@ -1,48 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- [Q1. Insert your name and today's date here] -->
   <!-- Harrison Bement, 1/22/2024 -->
-  <!-- [Q2. Change the html title to the topic of your choice] -->
+<!--I made this code, but I wanted it to look like the other pages I had created so I took a used a lot of the code from the other pages.-->
+
   <title>The Bake Show</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: #574de6;
+      padding: 1em;
+      color: #fff;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    li {
+      display: inline;
+      margin: 0 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    th,
+    td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #574de6;
+      color: #fff;
+    }
+  </style>
 </head>
+
 <body>
   <!-- [Q3. Create a navigation bar that links to two other pages] -->
   <div class="navbar">
     <ul>
-      <a href="./index.html"><li>Home</li></a>
-      <a href="./Nutrition.html"><li>Nutrition facts</li></a>
-      <a href="#"><li>Populat items</li></a>
+      <a href="./index.html">
+        <li>Home</li>
+      </a>
+      <a href="./Nutrition.html">
+        <li>Nutrition facts</li>
+      </a>
+      <a href="./popular.html">
+        <li>Popular items</li>
+      </a>
+      <a href="./images.html">
+        <li>Images</li>
+      </a>
     </ul>
   </div>
 
   <table>
     <thead>
-        <tr>
-            <th>Name of the items</th>
-            <th>Servings</th>
-            <th>Calories</th>
-        </tr>
+      <tr>
+        <th>Name of the items</th>
+        <th>Servings</th>
+        <th>Calories</th>
+      </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>Croissant (bundle of 6)</td>
-            <td>1</td>
-            <td>120 cal</td>
-        </tr>
-        <tr>
-            <td>Macaron (pkg. of 12)</td>
-            <td>1</td>
-            <td>300 cal</td>
-        </tr>
-        <tr>
-            <td>Rolls (bag of 20)</td>
-            <td>1</td>
-            <td>250 cal</td>
-        </tr>
+      <tr>
+        <td>Croissant (bundle of 6)</td>
+        <td>1</td>
+        <td>120 cal</td>
+      </tr>
+      <tr>
+        <td>Macaron (pkg. of 12)</td>
+        <td>1</td>
+        <td>300 cal</td>
+      </tr>
+      <tr>
+        <td>Rolls (bag of 20)</td>
+        <td>1</td>
+        <td>250 cal</td>
+      </tr>
     </tbody>
-</table>
-
-
+  </table>
 </body>
+
 </html>

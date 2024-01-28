@@ -1,23 +1,83 @@
+<!--Harrison Bement, 1/27/2024-->
 <!DOCTYPE html>
 <html lang="en">
+<!--I made this code, but the home page wasn't looking good. I asked an AI to make it look more professional and copied it straight from the source-->
 <head>
-  <!-- [Q1. Insert your name and today's date here] -->
-  <!-- Harrison Bement, 1/22/2024 -->
-  <!-- [Q2. Change the html title to the topic of your choice] -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Bake Show</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+
+    header {
+      background-color: #574de6;
+      padding: 1em;
+      color: #fff;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #574de6;
+    }
+    ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
+
 <body>
-  <!-- [Q3. Create a navigation bar that links to two other pages] -->
+  <header>
+    <h1>The Bake Show</h1>
+  </header>
   <div class="navbar">
     <ul>
-      <a href="#"><li>Home</li></a>
-      <a href="Nutrition.html"><li>Nutrition facts</li></a>
-      <a href=""><li>Populat items</li></a>
+      <a href="./index.html">
+        <li>Home</li>
+      </a>
+      <a href="Nutrition.html">
+        <li>Nutrition facts</li>
+      </a>
+      <a href="./popular.html">
+        <li>popular items</li>
+      </a>
+      <a href="./images.html">
+        <li>images</li>
+      </a>
     </ul>
   </div>
 
-  <!-- [Q4. Stage and commit your changes up to this point, with an appropriate commit message about the navbar and title. Don't forget to push to GitHub!] -->
-  <!-- [Q5-Q10. Follow the instructions in the README.md file to complete them] -->
+  <section>
+    <h2>Welcome to our Pastry Shop</h2>
+    <p>Explore our delicious selection of pastries:</p>
+    <ul>
+      <li>Macarons</li>
+      <li>Croissants</li>
+      <li>Cupcakes</li>
+    </ul>
+  </section>
 
+  <footer>
+    <p>&copy; 2024 Pastry Shop</p>
+  </footer>
 </body>
+
 </html>
